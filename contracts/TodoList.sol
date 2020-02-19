@@ -12,7 +12,7 @@ contract TodoList {
     mapping(uint => Task) public tasks;
 
     constructor() public{
-        createTask("Check ouut my gitHub Profile");
+        createTask("My Todo list of this month");
     }
     function createTask(string memory _content) public {
         taskCount ++;
